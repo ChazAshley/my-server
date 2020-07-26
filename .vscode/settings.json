@@ -1,0 +1,9 @@
+{
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ]
+}
